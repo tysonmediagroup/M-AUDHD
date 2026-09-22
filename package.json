@@ -1,0 +1,36 @@
+{
+  "name": "m-audhd",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "M-AUDHD: Mobile Sensory Toolkit for Neurodivergent People - TYSON Media Group",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 8000",
+    "start": "vite --port 8000 --host",
+    "deploy": "echo 'Static deployment ready'"
+  },
+  "keywords": [
+    "sensory",
+    "neurodivergent",
+    "originkit",
+    "stim",
+    "tysonmediagroup",
+    "myt5s",
+    "canvas"
+  ],
+  "author": "TYSON Media Group",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1"
+  }
+}
